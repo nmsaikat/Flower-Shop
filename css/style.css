@@ -3,4 +3,59 @@
   padding: 0;
   margin: 0;
   box-sizing: border-box;
+  font-family: "lato";
+}
+
+.container {
+  width: 1280px;
+  margin: auto;
+}
+
+.btn {
+  padding: 15px 30px;
+  border: 1px solid #e55473;
+  border-radius: 8px;
+  background-color: #e55473;
+  font-weight: 600;
+  font-size: 16px;
+  color: #fff;
+  transition: 0.5s;
+}
+.btn:hover {
+  background-color: #ffffff00;
+  color: #e55473;
+}
+
+/* Banner Css */
+.banner_section {
+  background-color: #e5547335;
+}
+.banner_main {
+  display: flex;
+  height: 90vh;
+}
+.banner_left {
+  margin: auto;
+}
+.banner_left .banner_title {
+  font-family: "lato";
+  font-size: 56px;
+  width: 60%;
+  line-height: 1.1em;
+}
+
+.banner_left .banner_description {
+  font-size: 18px;
+  margin: 40px 0px;
+  width: 70%;
+  line-height: 1.3em;
+}
+
+.banner_right {
+  align-self: flex-end;
+  margin-bottom: -4px;
+}
+
+.banner_right img {
+  width: 110%;
 }
