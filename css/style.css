@@ -105,3 +105,54 @@
   text-decoration: underline;
   padding-top: 24px;
 }
+
+.service_box {
+  display: flex;
+  justify-content: space-around;
+  margin: 50px 0;
+  background-color: hsla(0, 0%, 15%, 0.06);
+  padding: 50px;
+  border-radius: 8px;
+}
+
+.service_box .service_item {
+  text-align: center;
+}
+
+.service_item .info_text {
+  color: #272727;
+  font-weight: 500;
+  font-size: 16px;
+  padding: 20px 0;
+}
+
+/* Discount Section CSS */
+.discount_section {
+  background-color: #e5547318;
+}
+
+.discount_main {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 40px 0;
+}
+
+.discount_left .discount_title {
+  font-weight: 700;
+  font-size: 40px;
+  text-align: left;
+}
+
+.discount_title .off {
+  color: #e55473;
+}
+
+.discount_left .discount_description {
+  color: hsl(0, 0%, 40%);
+  font-size: 16px;
+  width: 60%;
+  line-height: 1.3em;
+  font-weight: 400;
+  padding: 20px 0;
+}
