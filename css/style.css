@@ -62,3 +62,46 @@
 .banner_right img {
   width: 110%;
 }
+
+/* our featured CSS */
+.our_featured {
+  background-color: #fff;
+}
+
+.our_featured_main {
+  margin: auto;
+  padding: 5% 0;
+}
+
+.ourfeatured_top_part {
+  text-align: center;
+}
+
+.ourfeatured_top_part .ourfeatured_title {
+  font-size: 40px;
+  font-weight: 800;
+  padding: 20px 0;
+  text-transform: capitalize;
+}
+
+.ourfeatured_top_part .ourfeatured_description {
+  width: 40%;
+  margin: auto;
+  font-weight: 400;
+  line-height: 1.5em;
+}
+
+.ourfeatured_bottom_part {
+  display: flex;
+  gap: 20px;
+  padding: 40px 0;
+}
+.ourfeatured_bottom_part img {
+  width: 100%;
+}
+
+.ourfeatured_bottom_part .img_box_title {
+  text-align: center;
+  text-decoration: underline;
+  padding-top: 24px;
+}
