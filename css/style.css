@@ -1,3 +1,5 @@
+/* Google Font Add */
+@import url("https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap");
 /* Reusable CSS */
 * {
   padding: 0;
@@ -48,7 +50,8 @@
   font-size: 18px;
   margin: 40px 0px;
   width: 70%;
-  line-height: 1.3em;
+  line-height: 1.5em;
+  color: hsla(0, 0%, 15%, 0.6);
 }
 
 .banner_right {
