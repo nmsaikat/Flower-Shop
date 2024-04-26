@@ -156,3 +156,41 @@
   font-weight: 400;
   padding: 20px 0;
 }
+
+/* Instragram CSS */
+.instragram_section {
+  background-color: #fff;
+}
+
+.instragram_main {
+  margin: auto;
+  padding: 5% 0;
+}
+
+.indtragram_top_part {
+  text-align: center;
+}
+
+.instragram_title {
+  font-size: 40px;
+  font-weight: 800;
+  padding: 20px 0;
+  text-transform: capitalize;
+}
+
+.instragram_description {
+  width: 40%;
+  margin: auto;
+  font-weight: 400;
+  line-height: 1.5em;
+}
+
+.instragram_bottom_part {
+  display: flex;
+  gap: 20px;
+  padding: 40px 0;
+}
+
+.img_item img {
+  width: 100%;
+}
