@@ -194,3 +194,57 @@
 .img_item img {
   width: 100%;
 }
+
+/* Call To Action CSS */
+.call_to_action_main {
+  background-image: url(../image/deals.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 80px 0;
+  border-radius: 8px;
+  text-align: center;
+  margin: auto;
+  margin: 5% 0;
+}
+
+.call_to_action_title {
+  font-size: 40px;
+  font-weight: 800;
+  padding: 20px 0;
+  text-transform: capitalize;
+}
+
+.call_to_description {
+  width: 40%;
+  margin: auto;
+  font-weight: 400;
+  line-height: 1.5em;
+  padding-bottom: 30px;
+}
+
+.call_to_action_bottom {
+  display: flex;
+  justify-content: space-around;
+}
+
+.call_to_action_bottom input {
+  padding: 15px;
+  border-radius: 8px;
+  border: 1px solid #eeeeee24;
+  outline-style: none;
+}
+
+.call_to_action_bottom input:focus {
+  color: #000;
+  border: 1px solid #e55473;
+}
+
+.call_to_action_bottom input[type="email"] {
+  padding-top: 15px;
+  font-size: 18px;
+  font-weight: 400;
+  padding-bottom: 15px;
+  padding-left: 15px;
+  padding-right: 500px;
+  margin-right: 10px;
+}
